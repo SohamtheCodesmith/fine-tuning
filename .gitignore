@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+env/
+finetuning/
+
+# Model weights and checkpoints
+polite-lora/
+outputs/
+runs/
+checkpoints/
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.ipynb_checkpoints/
+.cache/
+.huggingface/
+accelerate/
+wandb/
+
+# System files
+.DS_Store
+Thumbs.db
