@@ -39,8 +39,8 @@ You can easily swap out the dataset to make the model adopt new tones or persona
 
 ```bash
 # Clone the repo
-git clone https://github.com/SohamtheCodesmith/FineTuner.git
-cd FineTuner
+git clone https://github.com/SohamtheCodesmith/fine-tuning.git
+cd fine-tuning
 
 # Create a virtual environment
 python -m venv finetuning
