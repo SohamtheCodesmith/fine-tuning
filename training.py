@@ -3,9 +3,16 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments,
 from peft import LoraConfig, get_peft_model
 import torch
 
+# If you want to check if your GPU is being used, you can uncomment the following lines:
+
+# print("CUDA available:", torch.cuda.is_available())
+# print(torch.__version__)
+
+
 # Load model
 model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
+tokenizer.pad_token = tokenizer.eos_token
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     device_map="auto",

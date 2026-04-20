@@ -1,7 +1,21 @@
 # 🧠 Fine-Tuning Small Language Models with LoRA
 
+![Conference](https://img.shields.io/badge/Presented%20at-RAFET--2026-blue)
+
 This is a **minimal proof-of-concept (MVP)** project that demonstrates how to fine-tune a small language model using **LoRA (Low-Rank Adaptation)**.
 The goal is to experiment with making LLMs adopt different tones, such as **politeness**, **snark**, or even **medieval-style dialogue**, using simple datasets and local fine-tuning.
+
+---
+
+## 🏋️‍♂️ Conference Presentation / Publication
+
+**Conference Presentation:**
+Presented at the **2nd International Conference on Recent Advancements in the Field of Engineering and Technology (RAFET-2026)**, organised by **Dr. Sudhir Chandra Sur Institute of Technology and Sports Complex**.
+
+This project demonstrates how instruction-following behaviour can be adapted using **LoRA (Low-Rank Adaptation)** for parameter-efficient fine-tuning of small language models on consumer hardware.
+
+📄 Paper: *Improving Instruction-Following in Small Language Models Using LoRA-Based Parameter Efficient Fine-Tuning*  
+📊 Slides: Available in `/rafet_2026`
 
 ---
 
