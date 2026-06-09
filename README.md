@@ -1,21 +1,22 @@
 # 🧠 Fine-Tuning Small Language Models with LoRA
 
-![Conference](https://img.shields.io/badge/Presented%20at-RAFET--2026-blue)
+![Conference](https://img.shields.io/badge/Published%20in-RAFET%202.0-blue)
 
 This is a **minimal proof-of-concept (MVP)** project that demonstrates how to fine-tune a small language model using **LoRA (Low-Rank Adaptation)**.
 The goal is to experiment with making LLMs adopt different tones, such as **politeness**, **snark**, or even **medieval-style dialogue**, using simple datasets and local fine-tuning.
 
 ---
 
-## 🏋️‍♂️ Conference Presentation / Publication
+## 🏋️‍♂️ Conference Presentation & Publication
 
-**Conference Presentation:**
-Presented at the **2nd International Conference on Recent Advancements in the Field of Engineering and Technology (RAFET-2026)**, organised by **Dr. Sudhir Chandra Sur Institute of Technology and Sports Complex**.
+This project was presented at the **2nd International Conference on Recent Advancements in the Field of Engineering and Technology (RAFET-2026)**, organised by **Dr. Sudhir Chandra Sur Institute of Technology and Sports Complex**, and was subsequently published as **Chapter 53 (pp. 572–584)** in **Recent Advancement in the Field of Engineering and Technology 2.0**.
 
-This project demonstrates how instruction-following behaviour can be adapted using **LoRA (Low-Rank Adaptation)** for parameter-efficient fine-tuning of small language models on consumer hardware.
+This work explores how instruction-following behaviour can be adapted using **LoRA (Low-Rank Adaptation)** for parameter-efficient fine-tuning of small language models on consumer hardware. The project demonstrates a lightweight local fine-tuning pipeline using custom instruction datasets, enabling behavioural adaptation without the computational costs associated with full model retraining.
 
-📄 Paper: *Improving Instruction-Following in Small Language Models Using LoRA-Based Parameter Efficient Fine-Tuning*  
-📊 Slides: Available in `/rafet_2026`
+📄 Chapter: *Improving Instruction-Following in Small Language Models Using LoRA-Based Parameter Efficient Fine-Tuning*
+📚 ISBN: 978-93-7880-005-4
+🔗 DOI: [doi:10.5281/zenodo.20606663](https://doi.org/10.5281/zenodo.20606663)
+📊 Presentation Slides: Available in `/rafet_2026`
 
 ---
 
