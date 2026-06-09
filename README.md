@@ -13,9 +13,9 @@ This project was presented at the **2nd International Conference on Recent Advan
 
 This work explores how instruction-following behaviour can be adapted using **LoRA (Low-Rank Adaptation)** for parameter-efficient fine-tuning of small language models on consumer hardware. The project demonstrates a lightweight local fine-tuning pipeline using custom instruction datasets, enabling behavioural adaptation without the computational costs associated with full model retraining.
 
-📄 Chapter: *Improving Instruction-Following in Small Language Models Using LoRA-Based Parameter Efficient Fine-Tuning*
-📚 ISBN: 978-93-7880-005-4
-🔗 DOI: [doi:10.5281/zenodo.20606663](https://doi.org/10.5281/zenodo.20606663)
+📄 Chapter: *Improving Instruction-Following in Small Language Models Using LoRA-Based Parameter Efficient Fine-Tuning*\
+📚 ISBN: 978-93-7880-005-4\
+🔗 DOI: [doi:10.5281/zenodo.20606663](https://doi.org/10.5281/zenodo.20606663)\
 📊 Presentation Slides: Available in `/rafet_2026`
 
 ---
